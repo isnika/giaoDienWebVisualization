@@ -1,0 +1,7 @@
+
+
+var fullName = 'Nguyen Khanh Huyen';
+var age = '20'
+
+alert(fullName)
+alert(age)

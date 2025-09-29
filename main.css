@@ -1,0 +1,16 @@
+.square {
+  animation: spin 7s linear infinite reverse; /* xoay 6 giây 1 vòng */
+}
+
+.diamond {
+  animation: spin 7s linear infinite  ; /* xoay ngược, tốc độ khác */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

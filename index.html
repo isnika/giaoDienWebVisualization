@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Visualization</title>
   <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
   <!-- Google Font: Montserrat for logo text -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
     body 
     {
       /* Apply web font */
       font-family: 'Montserrat';
       display: flex;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
@@ -76,6 +81,15 @@
     <div class="diamond"></div>
     <div class="text-main">VISUALIZATION</div>
     <div class="text-small">KaTila</div>
+    <span id="countdown"></span>
   </div>
+
+  <script>
+    // Sau 30 giây tự động chuyển
+    setTimeout(function() {
+      window.location.href = "../web2/Home/indexhome.html"; 
+      // đổi "index2.html" thành đường dẫn thực tế của bạn
+    }, 5000); 
+  </script>
 </body>
 </html>
